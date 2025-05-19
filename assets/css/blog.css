@@ -1,0 +1,76 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and center the container */
+body {
+    background-color: #1c1c1c;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* White card */
+.container {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    /* font-size: 1.2rem; */
+}
+
+/* Blog Content */
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: left;
+}
+
+/* Sections */
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Left-align the lists */
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Increased gap between list items */
+}
+
+/* List items */
+li {
+    list-style-position: outside;
+    line-height: 1.5; /* Added higher line height */
+}
+
+/* Links */
+a {
+    color: #2c0060;
+    text-decoration: underline;
+    font-size: 1rem;
+}
