@@ -1,2 +1,2 @@
 # Personal Portfolio Design
-## Includes a homepage and a Blog page
+## Includes a Homepage and a Blog page
